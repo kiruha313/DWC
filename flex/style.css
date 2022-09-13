@@ -1,0 +1,22 @@
+.flex {
+  background-color: #00c7ce;
+  height: 50vh;
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+}
+
+
+
+.flex > :first-child {
+  margin-left: auto;
+}
+
+
+.flex > div {
+  background-color: #fff;
+  margin: 10px 40px 40px 10px;
+  padding: 40px 60px 40px 60px;
+  font-size: 40px;
+}
+
